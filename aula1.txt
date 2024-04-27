@@ -1,0 +1,24 @@
+1 - criando um projeto no django:
+(venv) PS E:\PROJETOS\PYTHON\ALURA\python_apirest\projeto_api> python manage.py startapp escola
+
+2 - Dentro da view pode mos inserir os dado para gerar o nosso json
+3 - Para acessar o json será utilizado o link: http://127.0.0.1:8000/alunos/
+
+4 - para instalar o framework api rest:
+pip install djangorestframework
+pip install markdown
+
+5 - 
+felipe
+a10b20c40
+
+6 - 
+GET: pega informação
+POST: grava nova informação no banco de dados
+PUT: usado para fazer uma atualização completa do recurso
+PATCH: atualiza apenas um recurso de dados do conjunto
+
+deve ser informado o id que sera alterado no put:
+http://127.0.0.1:8000/alunos/1/
+
+Depois deve ser passado os dados com id para ser atualizado
